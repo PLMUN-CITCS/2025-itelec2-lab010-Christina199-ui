@@ -3,7 +3,7 @@ user_input = input("Enter your numeric grade: ")
 try:
     grade = int(user_input)
     
-    if grade >= 90:
+if grade >= 90:
     letter_grade = "A"
 elif grade >= 80:
     letter_grade = "B"
